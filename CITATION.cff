@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use Tasvir Bankası, please cite this work using the metadata in this file.
+title: 'Tasvir Bankası: A Turkish Literary Scene-State-Description Dataset and Annotation Pipeline'
+version: v0.1.0-public-preview
+date-released: '2026-06-07'
+type: software
+authors:
+- given-names: Furkan
+  family-names: Yaşar
+license: LicenseRef-PolyForm-Noncommercial-1.0.0
+keywords:
+- Turkish literature
+- literary dataset
+- scene segmentation
+- state-aware annotation
+- description-aware annotation
+- JSONL
+- computational literary studies
+- dataset pipeline
+abstract: Tasvir Bankası Pipeline is a source-available non-commercial research preview for scene/state/description-aware literary annotation, with JSONL schemas, public release-check subsets, and two-regime validation tooling.

@@ -1,0 +1,351 @@
+{
+  "generated_for": "github_upload_root",
+  "generated_utc": "2026-06-07T10:50:54Z",
+  "file_count": 68,
+  "self_files_excluded": [
+    "data/reports/upload_checksums_sha256_v0.1.0.json",
+    "data/reports/upload_file_manifest_v0.1.0.json"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "size_bytes": 377,
+      "sha256": "18a8b2b62ddabc3418fb61898f6a97aa08c5f125d803cb4d84975a0bec9c0b70"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 1401,
+      "sha256": "03b41bf108483643855df0344660e994b4704089437f3f318c69e69315ff8ebd"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 805,
+      "sha256": "2233657f74bcfd240dc01512c5805b3dedde6fcdbd3e740655dbff6abe4fa0d6"
+    },
+    {
+      "path": "CODE_LICENSE.md",
+      "size_bytes": 1175,
+      "sha256": "d63f97a74f2ea063669c67ef4e7bb4a90e500a19981b163506366b8b6119b341"
+    },
+    {
+      "path": "DATA_LICENSE.md",
+      "size_bytes": 1723,
+      "sha256": "2c261b777b560ad47f31a485b6bb65c5c410b6897ebbfd26b6e0531d8ee98693"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1966,
+      "sha256": "e6a5953218730279c4e27d2525663f985076d5f7725c9cc843588891e77c5010"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 1966,
+      "sha256": "e6a5953218730279c4e27d2525663f985076d5f7725c9cc843588891e77c5010"
+    },
+    {
+      "path": "PATCH_MANIFEST.md",
+      "size_bytes": 2329,
+      "sha256": "a08a96a79dc5c9b9d2043a5e0356c8b5fdbbaf51eb85f473fcf52cc96390c4f1"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5159,
+      "sha256": "9f0379c03b146f58a45923067668770abf016dde31ab6e827ebcbcc8b07bd083"
+    },
+    {
+      "path": "RUN_ORDER.md",
+      "size_bytes": 5736,
+      "sha256": "5ec721bfc8654e5d15dc7412762ed26f9388e6b486ad72d68e8f0aa363bc0cba"
+    },
+    {
+      "path": "TERMS_OF_USE.md",
+      "size_bytes": 2225,
+      "sha256": "ca6312073f96c21c15606b86ab52ea3531354a744a71b076e66c09920ed3bd4b"
+    },
+    {
+      "path": "data/gold_smoke_v0.1/README.md",
+      "size_bytes": 1619,
+      "sha256": "43561e5d4c7613d8cee5d4bf5b3c9dabe1198ae1b8b4d85be9436ddbb19f36e2"
+    },
+    {
+      "path": "data/gold_smoke_v0.1/sabahattin_ali_kurk_mantolu_madonna.gold_smoke_v0.1.jsonl",
+      "size_bytes": 161329,
+      "sha256": "a20194c141b92d3f178817448c29cc1479aeb3ce987ce8116b5a72fb6a73a9a5"
+    },
+    {
+      "path": "data/gold_smoke_v0.1/sait_faik_luzumsuz_adam.gold_smoke_v0.1.jsonl",
+      "size_bytes": 100631,
+      "sha256": "8d9c3d17fb6fc834fcda0ccbc9f50af0ec025a62ed5d8dcbaf4eb8439147900c"
+    },
+    {
+      "path": "data/gold_smoke_v0.1/sait_faik_sahmerdan.gold_smoke_v0.1.jsonl",
+      "size_bytes": 84454,
+      "sha256": "a2005e0f2fdc56c14482e79a31426a35dcba6e292d1fbbc211f30e457ed2a4ed"
+    },
+    {
+      "path": "data/gold_smoke_v0.1/sait_faik_sarnic.gold_smoke_v0.1.jsonl",
+      "size_bytes": 69041,
+      "sha256": "df2440a23741410c763ef56e09655dde91f8d310fd0199bac5dee6c0d4d421d3"
+    },
+    {
+      "path": "data/gold_smoke_v0.1/sait_faik_semaver.gold_smoke_v0.1.jsonl",
+      "size_bytes": 99782,
+      "sha256": "cda0152c1099f226d63ded4bd9d13a998feee0b8e432cf0efda4de184ce24d04"
+    },
+    {
+      "path": "data/reports/dataset_profile_v0.1.json",
+      "size_bytes": 15601,
+      "sha256": "38af871b25ee194918a0b1e14fd70abc9d0f2ffbf84463b8ceca093e027f50b9"
+    },
+    {
+      "path": "data/reports/descriptive_curation_ledger_v0.2.json",
+      "size_bytes": 466,
+      "sha256": "413e65ada40e1b867c4cea7f74b52bc636fbf80867d2317ba313f43f2067450a"
+    },
+    {
+      "path": "data/reports/descriptive_edgecase_final_report_v0.2.json",
+      "size_bytes": 616,
+      "sha256": "f692820485eb2c0785368726a0b126cef999377c6fe9d39efbc6594d281ce963"
+    },
+    {
+      "path": "data/reports/descriptive_regression_report_v0.1.json",
+      "size_bytes": 1122,
+      "sha256": "000c96a3a5c6fe163df58c46fabca038a45816854ab26cd5e5701adfe0d18548"
+    },
+    {
+      "path": "data/reports/gold_smoke_report_v0.1.json",
+      "size_bytes": 14479,
+      "sha256": "9150258370bceb2c822adecc2944c832b62e5f4e2f277be6dc8eb3c8a22d31c2"
+    },
+    {
+      "path": "data/reports/gold_smoke_report_v0.2.json",
+      "size_bytes": 14481,
+      "sha256": "a51f29e76123311daec18b9319337752cf335930b823a42b525a1854065aa665"
+    },
+    {
+      "path": "data/reports/hf_pre_release_checklist_v0.1.json",
+      "size_bytes": 3061,
+      "sha256": "bc42a36d15e349eacf7c99c6e995277b7b8d244572dc02a13a23fc3883a86051"
+    },
+    {
+      "path": "data/reports/pipeline_file_audit_v0.1.json",
+      "size_bytes": 862,
+      "sha256": "f47113cd81877e6a418ce30ce12b6fcb803e3a2819b9743b04eb036da9d8a257"
+    },
+    {
+      "path": "data/reports/release_validation_index_v0.1.json",
+      "size_bytes": 1140,
+      "sha256": "8e71882028255a48d1714fb5e7044cdac69cc9b93d3cc5c846e482e1d11aefa4"
+    },
+    {
+      "path": "data/reports/source_rights_review_v0.1.json",
+      "size_bytes": 8076,
+      "sha256": "ea8111ddf322d8d0a9afcaafa29f69fa78336da2ed33db79476cb90b6f5cd252"
+    },
+    {
+      "path": "data/reports/two_regime_probe_report_v0.1.json",
+      "size_bytes": 18764,
+      "sha256": "a5f76899f3058f728ef29baa12b974d6adb3c1ce7a75260a77a5ae29739b4176"
+    },
+    {
+      "path": "data/two_regime_probe_v0.1/README.md",
+      "size_bytes": 1863,
+      "sha256": "a7d330e3b04cfa00f16f3a0e50222058e240838ba2c7a86eebedddd758b7fe40"
+    },
+    {
+      "path": "data/two_regime_probe_v0.1/sabahattin_ali_kurk_mantolu_madonna.two_regime_probe_v0.1.jsonl",
+      "size_bytes": 36944,
+      "sha256": "cb0a0ac08467b345ca070d658ae5422c45fc0b390f679803f71c7b4b12d99347"
+    },
+    {
+      "path": "data/two_regime_probe_v0.1/sait_faik_luzumsuz_adam.two_regime_probe_v0.1.jsonl",
+      "size_bytes": 24680,
+      "sha256": "2e2a9f50eccb6df369bd820bac249dc47b93d172e98b9bcaf5399c0d5cfccbca"
+    },
+    {
+      "path": "data/two_regime_probe_v0.1/sait_faik_sahmerdan.two_regime_probe_v0.1.jsonl",
+      "size_bytes": 13937,
+      "sha256": "ff76017cea1128e6a47ecc139c29dbc0aa2030997619cab56e85d551990ce91a"
+    },
+    {
+      "path": "data/two_regime_probe_v0.1/sait_faik_sarnic.two_regime_probe_v0.1.jsonl",
+      "size_bytes": 25289,
+      "sha256": "54f3cb899f4c4c7a1d2fae8e8f2532b9c0891c81dc0e93e70fe0199c15fafd7c"
+    },
+    {
+      "path": "data/two_regime_probe_v0.1/sait_faik_semaver.two_regime_probe_v0.1.jsonl",
+      "size_bytes": 25188,
+      "sha256": "fc52ff035d8ad48aba7aaa96dd2faba5c8cecc4336620fe0e96af56b7bbd489d"
+    },
+    {
+      "path": "docs/ANNOTATION_GUIDELINES.md",
+      "size_bytes": 3684,
+      "sha256": "c75c400a0a5e7cabdd70127ec7fac757816801d2aa073a18352f2df067e3eeb1"
+    },
+    {
+      "path": "docs/DATASET_CARD_DRAFT.md",
+      "size_bytes": 4817,
+      "sha256": "4e12281a79eafd014e8e880a9b7147b7bca27ee0d693725b0f2408dbb25be4a4"
+    },
+    {
+      "path": "docs/DATA_STATEMENT.md",
+      "size_bytes": 1812,
+      "sha256": "010d6b6852354f6f73871457f9a044683eec308c82c2930ba83f0d6f2124a727"
+    },
+    {
+      "path": "docs/DESCRIPTIVE_EXTRACTION_FIX_NOTES.md",
+      "size_bytes": 2610,
+      "sha256": "e1daa53ba006c6ace5bf209ff9745624173cc17dc464ff27923245e3a5f48f6f"
+    },
+    {
+      "path": "docs/FIELD_DICTIONARY.md",
+      "size_bytes": 5216,
+      "sha256": "4f2becb670627e2e2a400855bf344ce804a403861c4a8de4d95fec0ed40b1bb5"
+    },
+    {
+      "path": "docs/GOLD_EVAL_GUIDELINES.md",
+      "size_bytes": 4000,
+      "sha256": "cddc1478e01ac391591f037c874bfbed2b4aefd5cdc94fd016b23715c459dba2"
+    },
+    {
+      "path": "docs/HUGGINGFACE_PRE_RELEASE_CHECKLIST.md",
+      "size_bytes": 2146,
+      "sha256": "4891f7b0cff6869036eb1f4cfdb4cc8dbfaeba1e648f37777132cb82fc23f325"
+    },
+    {
+      "path": "docs/PIPELINE_IO_CONTRACT.md",
+      "size_bytes": 4870,
+      "sha256": "e13cab687776656dbd5193f1bb419e828f620e66d51d7ab4db300521116f82bc"
+    },
+    {
+      "path": "docs/PIPELINE_OVERVIEW.md",
+      "size_bytes": 4407,
+      "sha256": "80c3a9c70ca8cb0933af48b649e42012ce9573915354dc37ed392d55d82a76b4"
+    },
+    {
+      "path": "docs/SOURCE_RIGHTS_REVIEW_TABLE.md",
+      "size_bytes": 4352,
+      "sha256": "9ba789bf7a67cc88f24f1cc10ff393a0f7669518f62585b8cb221c6db408c228"
+    },
+    {
+      "path": "docs/SOURCE_TEXT_INVENTORY.md",
+      "size_bytes": 4584,
+      "sha256": "63a8a8bd76561bf08e647bd07e67893d6e4e7d631fdba3ea229f87ed0d23edef"
+    },
+    {
+      "path": "pipeline/01_00_text_cleanup.py",
+      "size_bytes": 4565,
+      "sha256": "0ff2e74f4a01a01ac64a3c23bbcb0e97849c305d0338d94ad34e2119d4203c8d"
+    },
+    {
+      "path": "pipeline/02_00_paragraph_segmentation.py",
+      "size_bytes": 2231,
+      "sha256": "5968768feb88a7bd8f74d06d0da1d085c56548feb344391076104689f10bcebf"
+    },
+    {
+      "path": "pipeline/02_10_microblock_segmentation.py",
+      "size_bytes": 4133,
+      "sha256": "abd9b13ed0912e5c04d990b06c5647f54201d592513b10e712aa81e1f6a4e059"
+    },
+    {
+      "path": "pipeline/03_00_dialogue_feature_extraction.py",
+      "size_bytes": 2626,
+      "sha256": "82d69544c27727f0a674c16c7f305dc35c8fc8a084ad52ef12a94f431b89c87b"
+    },
+    {
+      "path": "pipeline/03_10_morphological_feature_extraction.py",
+      "size_bytes": 3279,
+      "sha256": "6ba9cf38f9c276d0d16c7ebc21d5cca93052a04ad77c3cbc5d1d4c4b8ba7260f"
+    },
+    {
+      "path": "pipeline/03_20_tense_feature_extraction.py",
+      "size_bytes": 2824,
+      "sha256": "c0347fe92058794e702e240b099a8c32d1d7a8f4955425010da219cff1be2c07"
+    },
+    {
+      "path": "pipeline/04_00_scene_boundary_candidate_detection.py",
+      "size_bytes": 3345,
+      "sha256": "c6b704a1d665563084e302c379ff52c06d18d5a89fe65ee322db3946d1e34517"
+    },
+    {
+      "path": "pipeline/04_10_scene_coherence_classification.py",
+      "size_bytes": 2822,
+      "sha256": "60aecf018ffe360c269b7fadef29df9fa77cf154532e61250189bb217cc72180"
+    },
+    {
+      "path": "pipeline/04_20_llm_scene_segmentation.py",
+      "size_bytes": 8826,
+      "sha256": "b49e18652ab601221daa8a489c55f05c4d03ad0eba6fb9ce2305a18d2a95580b"
+    },
+    {
+      "path": "pipeline/04_30_structural_fallback_triage.py",
+      "size_bytes": 2372,
+      "sha256": "3e8706da120a51eff0ed2e78ab09d05d7407e171e5ba4139ebfa239b2721ced6"
+    },
+    {
+      "path": "pipeline/04_40_structural_fallback_refinement.py",
+      "size_bytes": 6553,
+      "sha256": "3e0069d9da4388a318e6e33d391eddcf93a36d6442fb10612e216196c2c2c108"
+    },
+    {
+      "path": "pipeline/04_50_scene_split_postprocessing.py",
+      "size_bytes": 6282,
+      "sha256": "f0b257d769632c51a3ffc74687c1a6a38557e6d8d329c2758b7c63f32875d8f0"
+    },
+    {
+      "path": "pipeline/05_00_record_normalization_and_selection.py",
+      "size_bytes": 4565,
+      "sha256": "aad9dab7815f176f550b64bdfde56c8789fbe2e19562a2156cd3ad9db0bbe759"
+    },
+    {
+      "path": "pipeline/05_10_semantic_state_assignment.py",
+      "size_bytes": 5627,
+      "sha256": "32aeed61f5894338627049128f235b5914b7df3b1df17a3715eeb6760eb0e5b4"
+    },
+    {
+      "path": "pipeline/06_00_description_category_tagging.py",
+      "size_bytes": 10549,
+      "sha256": "216f7bab50aab93640e43a0ff497e29dea80acb67727505526e12147ba60dbf2"
+    },
+    {
+      "path": "pipeline/06_10_description_lexical_enrichment.py",
+      "size_bytes": 4055,
+      "sha256": "b31cb205d59393d81723982b3dfb1cccc4337649163854123401d850ea71ff77"
+    },
+    {
+      "path": "pipeline/06_20_description_evidence_filtering.py",
+      "size_bytes": 3133,
+      "sha256": "cd9d4f874ba0cb250cd35027de7f207699fed6f77df8c85cceae739509eb1cc5"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 61,
+      "sha256": "8d7214375633ac144e4ee34fb65b702ecf8202c9f3d1212ada19921617136b51"
+    },
+    {
+      "path": "schemas/tasvir_record_schema.v0.1.json",
+      "size_bytes": 7653,
+      "sha256": "5198e1042fdf58c278130b8a0d397d41d81f66029f38a465fbad36e8e5bc1e9f"
+    },
+    {
+      "path": "tests/README.md",
+      "size_bytes": 621,
+      "sha256": "9ffed1d5e1d2adc9aa0f495718ebc6d65311c52aefdf64c65e651287a0dd01e6"
+    },
+    {
+      "path": "tests/descriptive_matching_regression_test.py",
+      "size_bytes": 5479,
+      "sha256": "cfbadf8c4d01655ff4688efce473a60223325c4fb1baae3325e51c7c7df3aaf6"
+    },
+    {
+      "path": "tests/validate_jsonl_schema.py",
+      "size_bytes": 32346,
+      "sha256": "4928a60fc4d9dabce395d1dc0e096daef1ba592eff4e8e0e7df8af142a893916"
+    },
+    {
+      "path": "tools/clean_and_regenerate_descriptive_fields.py",
+      "size_bytes": 8000,
+      "sha256": "4f36e53eda8686134ad5774e837d77799abb22ca0e09d6796c8f31b8a69421e6"
+    }
+  ]
+}

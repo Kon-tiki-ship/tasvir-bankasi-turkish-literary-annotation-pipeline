@@ -1,0 +1,38 @@
+{
+  "report_id": "release_validation_index_v0.1",
+  "public_release_version": "v0.1.0-public-preview",
+  "schema_version": "0.1",
+  "validator_version": "0.1.2",
+  "two_regime_policy_version": "0.1.2",
+  "generated_on": "2026-04-27",
+  "primary_reports": [
+    {
+      "report_path": "data/reports/gold_smoke_report_v0.1.json",
+      "report_id": "gold_smoke_report_v0.1",
+      "passed": true,
+      "total_records": 100,
+      "error_count": 0
+    },
+    {
+      "report_path": "data/reports/two_regime_probe_report_v0.1.json",
+      "report_id": "two_regime_probe_report_v0.1",
+      "passed": true,
+      "total_records": 20,
+      "error_count": 0,
+      "summaryless_valid_records": 10,
+      "summaryless_invalid_records": 0
+    }
+  ],
+  "release_gate": {
+    "gold_smoke_passed": true,
+    "two_regime_probe_passed": true,
+    "two_regime_summaryless_valid_records_gt_zero": true,
+    "two_regime_summaryless_invalid_records_eq_zero": true
+  },
+  "previous_reports": [
+    {
+      "report_path": "data/reports/dataset_profile_v0.1.json",
+      "status": "previous_internal_back_compat_not_primary_public_release_report"
+    }
+  ]
+}

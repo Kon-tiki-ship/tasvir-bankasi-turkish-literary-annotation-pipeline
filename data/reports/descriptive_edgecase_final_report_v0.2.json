@@ -1,0 +1,19 @@
+{
+  "records_cleaned": 100,
+  "unchanged_records": 0,
+  "false_positive_removed": 7,
+  "removed_reason_counts": {
+    "kar": 1
+  },
+  "false_positive_label_counts": {
+    "kar": 7
+  },
+  "human_review_needed": 0,
+  "processed_files": [
+    "data\\gold_smoke_v0.1\\sabahattin_ali_kurk_mantolu_madonna.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_luzumsuz_adam.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_sahmerdan.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_sarnic.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_semaver.gold_smoke_v0.1.jsonl"
+  ]
+}

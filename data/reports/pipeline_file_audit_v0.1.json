@@ -1,0 +1,24 @@
+{
+  "pipeline_script_count": 17,
+  "pipeline_scripts": [
+    "01_00_text_cleanup.py",
+    "02_00_paragraph_segmentation.py",
+    "02_10_microblock_segmentation.py",
+    "03_00_dialogue_feature_extraction.py",
+    "03_10_morphological_feature_extraction.py",
+    "03_20_tense_feature_extraction.py",
+    "04_00_scene_boundary_candidate_detection.py",
+    "04_10_scene_coherence_classification.py",
+    "04_20_llm_scene_segmentation.py",
+    "04_30_structural_fallback_triage.py",
+    "04_40_structural_fallback_refinement.py",
+    "04_50_scene_split_postprocessing.py",
+    "05_00_record_normalization_and_selection.py",
+    "05_10_semantic_state_assignment.py",
+    "06_00_description_category_tagging.py",
+    "06_10_description_lexical_enrichment.py",
+    "06_20_description_evidence_filtering.py"
+  ],
+  "public_safe_naming": true,
+  "demos_excluded": true
+}

@@ -1,0 +1,29 @@
+{
+  "records_cleaned": 22,
+  "unchanged_records": 98,
+  "false_positive_removed": 18,
+  "removed_reason_counts": {
+    "bar": 1,
+    "boy": 15,
+    "ev": 2,
+    "goz": 6
+  },
+  "false_positive_label_counts": {
+    "bar": 1,
+    "boy": 15,
+    "ev": 2
+  },
+  "human_review_needed": 3,
+  "processed_files": [
+    "data\\gold_smoke_v0.1\\sabahattin_ali_kurk_mantolu_madonna.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_luzumsuz_adam.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_sahmerdan.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_sarnic.gold_smoke_v0.1.jsonl",
+    "data\\gold_smoke_v0.1\\sait_faik_semaver.gold_smoke_v0.1.jsonl",
+    "data\\two_regime_probe_v0.1\\sabahattin_ali_kurk_mantolu_madonna.two_regime_probe_v0.1.jsonl",
+    "data\\two_regime_probe_v0.1\\sait_faik_luzumsuz_adam.two_regime_probe_v0.1.jsonl",
+    "data\\two_regime_probe_v0.1\\sait_faik_sahmerdan.two_regime_probe_v0.1.jsonl",
+    "data\\two_regime_probe_v0.1\\sait_faik_sarnic.two_regime_probe_v0.1.jsonl",
+    "data\\two_regime_probe_v0.1\\sait_faik_semaver.two_regime_probe_v0.1.jsonl"
+  ]
+}

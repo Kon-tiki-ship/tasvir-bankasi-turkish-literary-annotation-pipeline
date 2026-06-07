@@ -1,0 +1,11 @@
+[
+  {
+    "source_file": "sait_faik_semaver.gold_smoke_v0.1.jsonl",
+    "micro_block_id": "sait_faik_semaver__stelyanos_hrisopulos_gemisi_p020_mb01",
+    "issue_type": "decorative_nature_ambiguity",
+    "suspected_false_label": "cicek",
+    "suspected_source_phrase": "çiçek motif/çizili/dekoratif bağlam",
+    "recommended_action": "prefer_non_nature_and_manual_review",
+    "notes": "Decorative flower motif likely object/decor, not live nature signal."
+  }
+]

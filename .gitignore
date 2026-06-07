@@ -1,0 +1,96 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Virtual environments and local config
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+ENV/
+
+# Secrets and credentials
+*.key
+*.pem
+*.p12
+*.pfx
+secrets/
+private_config/
+credentials/
+
+# Build and packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Local editor state
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local raw/full data not intended for public release
+data/raw_text/
+data/clean_text/
+data/full/
+data/private/
+datasets exsamples/
+dataset_project/
+*.sqlite
+*.db
+
+# Generated local outputs
+outputs/
+runs/
+tmp/
+temp/
+data/reports/tmp*.json
+data/reports/local*.json
+
+# Keep public release artifacts tracked
+!data/gold_smoke_v0.1/
+!data/gold_smoke_v0.1/*.jsonl
+!data/gold_smoke_v0.1/README.md
+!data/two_regime_probe_v0.1/
+!data/two_regime_probe_v0.1/*.jsonl
+!data/two_regime_probe_v0.1/README.md
+!data/reports/
+!data/reports/dataset_profile_v0.1.json
+!data/reports/two_regime_probe_report_v0.1.json
+
+# Pipeline intermediate outputs generated from local source text
+data/stage_*/
+data/stage_2.1/
+data/stage_2/
+data/stage_3/
+data/stage_4/
+data/stage_4_1/
+data/stage_4_2/
+data/stage_4_4/
+data/stage_4_8/
+data/stage_4_9/
+data/stage_5/
+data/stage_5_0/
+data/stage_5_1/
+data/stage_5_2/
+data/stage_5_4/
+data/stage_5_8/
+data/stage_5_8_1/

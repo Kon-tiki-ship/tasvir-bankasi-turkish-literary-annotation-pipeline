@@ -1,0 +1,72 @@
+{
+  "report_id": "hf_pre_release_checklist_v0.1",
+  "release_patch": "v0.1.5_hf_precheck",
+  "generated_on": "2026-04-27",
+  "status": "historical_pre_release_checklist_superseded_by_v0.3.1_upload_package",
+  "full_dataset_ready": false,
+  "full_dataset_included": false,
+  "public_github_release_status": "not_published_by_this_patch",
+  "two_regime_validation_policy_preserved": true,
+  "blocking_checks": [
+    {
+      "check_id": "HF-001",
+      "check": "Source text inventory maps each dataset file to one work and author.",
+      "status": "prepared",
+      "evidence": "docs/SOURCE_TEXT_INVENTORY.md"
+    },
+    {
+      "check_id": "HF-002",
+      "check": "Rights review table contains required source-level fields.",
+      "status": "prepared",
+      "evidence": "docs/SOURCE_RIGHTS_REVIEW_TABLE.md"
+    },
+    {
+      "check_id": "HF-003",
+      "check": "Base works are treated only as rights-reviewed public-domain candidates under Turkish death+70 rule.",
+      "status": "prepared_not_final_legal_determination",
+      "evidence": "data/reports/source_rights_review_v0.1.json"
+    },
+    {
+      "check_id": "HF-004",
+      "check": "Modern publisher paratext and edition-specific material exclusion policy is documented.",
+      "status": "prepared",
+      "evidence": "DATA_LICENSE.md"
+    },
+    {
+      "check_id": "HF-005",
+      "check": "Full dataset files are not included in this patch.",
+      "status": "passed",
+      "evidence": "PATCH_MANIFEST.md"
+    },
+    {
+      "check_id": "HF-006",
+      "check": "Full dataset must be validated under the two-regime validator before any Hugging Face dataset release.",
+      "status": "completed_in_parallel_huggingface_v0.3.1_package",
+      "evidence": "docs/HUGGINGFACE_PRE_RELEASE_CHECKLIST.md"
+    },
+    {
+      "check_id": "HF-007",
+      "check": "Final Hugging Face README/dataset card metadata must be generated from the exact release package.",
+      "status": "completed_in_parallel_huggingface_v0.3.1_package",
+      "evidence": "docs/DATASET_CARD_DRAFT.md"
+    },
+    {
+      "check_id": "HF-008",
+      "check": "Final data license for full dataset package must be confirmed after source edition review.",
+      "status": "completed_in_parallel_huggingface_v0.3.1_package",
+      "evidence": "DATA_LICENSE.md"
+    },
+    {
+      "check_id": "HF-009",
+      "check": "No private prompts, secret tokens, local absolute paths, or local report artifacts are included.",
+      "status": "passed_for_this_patch",
+      "evidence": "release_hygiene_scan"
+    }
+  ],
+  "required_before_hf_publication": [],
+  "superseded_by": "02_HUGGINGFACE_UPLOAD/tasvir-bankasi-turkish-literary-scene-state-description-v0.3.1/",
+  "full_dataset_ready_in_parallel_huggingface_package": true,
+  "full_dataset_included_in_github_public_preview": false,
+  "updated_for_final_upload_package_utc": "2026-06-07T10:50:54Z",
+  "final_note": "The GitHub public-preview repository does not contain the full dataset; the final Hugging Face dataset package is prepared separately in the upload-ready bundle."
+}

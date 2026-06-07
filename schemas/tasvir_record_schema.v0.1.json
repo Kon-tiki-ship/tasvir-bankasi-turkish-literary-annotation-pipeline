@@ -1,0 +1,350 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/tasvir-bankasi/tasvir-bankasi/schemas/tasvir_record_schema.v0.1.json",
+  "title": "Tasvir Bankası Record Schema v0.1",
+  "type": "object",
+  "additionalProperties": true,
+  "description": "Public v0.1 record schema for the Tasvir Bankası scene-aware Turkish literary dataset pipeline. The schema supports a two-regime segment model: event-bearing scenes may contain/require brief_summary through validator logic, while non-event structural/state/emotion/atmosphere/descriptive segments may omit it when alternate evidence fields are present.",
+  "required": [
+    "story_id",
+    "paragraph_id",
+    "paragraph_index",
+    "total_paragraphs",
+    "text",
+    "micro_block_id",
+    "parent_paragraph_id",
+    "is_micro_block",
+    "stage",
+    "dialogue_char_ratio",
+    "dialogue_sentence_ratio",
+    "has_dialogue",
+    "token_count",
+    "noun_ratio",
+    "verb_ratio",
+    "adj_ratio",
+    "adv_ratio",
+    "non_finite_verb_ratio",
+    "tense_mode",
+    "tense_distribution",
+    "tense_confidence",
+    "scene_segments",
+    "scene_source",
+    "id_normalized",
+    "triage_candidate",
+    "triage_reasons",
+    "triage_stage",
+    "triage_version",
+    "state_identity_profile"
+  ],
+  "properties": {
+    "book_id": {
+      "type": "string"
+    },
+    "story_title": {
+      "type": "string"
+    },
+    "story_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paragraph_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paragraph_index": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "total_paragraphs": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "text": {
+      "type": "string",
+      "minLength": 1
+    },
+    "micro_block_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "parent_paragraph_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "is_micro_block": {
+      "type": "boolean"
+    },
+    "stage": {
+      "type": "string"
+    },
+    "dialogue_char_ratio": {
+      "type": "number",
+      "minimum": 0
+    },
+    "dialogue_sentence_ratio": {
+      "type": "number",
+      "minimum": 0
+    },
+    "has_dialogue": {
+      "type": "boolean"
+    },
+    "token_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "noun_ratio": {
+      "type": "number",
+      "minimum": 0
+    },
+    "verb_ratio": {
+      "type": "number",
+      "minimum": 0
+    },
+    "adj_ratio": {
+      "type": "number",
+      "minimum": 0
+    },
+    "adv_ratio": {
+      "type": "number",
+      "minimum": 0
+    },
+    "non_finite_verb_ratio": {
+      "type": "number",
+      "minimum": 0
+    },
+    "tense_mode": {
+      "type": "string"
+    },
+    "tense_distribution": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number"
+      },
+      "properties": {
+        "past": {
+          "type": "number"
+        },
+        "present": {
+          "type": "number"
+        },
+        "aorist": {
+          "type": "number"
+        }
+      }
+    },
+    "tense_confidence": {
+      "type": "number",
+      "minimum": 0
+    },
+    "scene_segments": {
+      "type": "object",
+      "required": [
+        "scenes"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "scenes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/scene"
+          }
+        }
+      }
+    },
+    "scene_source": {
+      "type": "string"
+    },
+    "fallback_review": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "id_normalized": {
+      "type": "boolean"
+    },
+    "triage_candidate": {
+      "type": "boolean"
+    },
+    "triage_reasons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "triage_stage": {
+      "type": "string"
+    },
+    "triage_version": {
+      "type": "string"
+    },
+    "state_identity_profile": {
+      "$ref": "#/$defs/state_identity_profile"
+    },
+    "descriptive_profile": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/descriptive_profile_item"
+      }
+    },
+    "descriptive_profile_enriched": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/descriptive_enriched_item"
+      }
+    },
+    "descriptive_profile_enriched_filtered": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/descriptive_enriched_item"
+      }
+    },
+    "coherence_flag": {
+      "type": [
+        "string",
+        "boolean"
+      ]
+    },
+    "coherence_reason": {
+      "type": "string"
+    },
+    "scene_edge": {
+      "type": [
+        "object",
+        "string",
+        "array",
+        "null"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "$defs": {
+    "state_pair": {
+      "type": "array",
+      "prefixItems": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "state_identity_profile": {
+      "type": "object",
+      "required": [
+        "top_states"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "top_states": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/state_pair"
+          }
+        },
+        "all_scores": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/state_pair"
+          }
+        },
+        "embedding_model": {
+          "type": "string"
+        }
+      }
+    },
+    "scene": {
+      "type": "object",
+      "required": [
+        "scene_index",
+        "scene_type",
+        "split_reason"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "scene_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "scene_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "brief_summary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "split_reason": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "$comment": "brief_summary is intentionally not globally required. The validator applies the two-regime policy: it is required for event-bearing scenes, but optional for structural_fallback/state/emotion/atmosphere/descriptive segments when alternate evidence fields are present."
+    },
+    "descriptive_profile_item": {
+      "type": "object",
+      "required": [
+        "category",
+        "reasons"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reasons": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "lexical_breakdown": {
+      "type": "object",
+      "additionalProperties": true,
+      "properties": {
+        "nouns": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "verbs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "adjectives": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "descriptive_enriched_item": {
+      "type": "object",
+      "required": [
+        "category",
+        "lexical_breakdown"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "lexical_breakdown": {
+          "$ref": "#/$defs/lexical_breakdown"
+        }
+      }
+    }
+  }
+}
