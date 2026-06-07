@@ -39,6 +39,22 @@ These full dataset files are **not** distributed through this GitHub repository.
 
 ---
 
+## Related resources
+
+Full gated Hugging Face dataset release:
+
+```text
+https://huggingface.co/datasets/Kon-tiki-ship/tasvir-bankasi-turkish-literary-scene-state-description-dataset
+```
+
+Zenodo publication record and DOI:
+
+```text
+https://doi.org/10.5281/zenodo.XXXXXXX
+```
+
+---
+
 ## Core pipeline boundary
 
 The core dataset pipeline is the 17-script sequence defined in `RUN_ORDER.md` and implemented under `pipeline/`.
@@ -175,10 +191,14 @@ Use `CITATION.cff` for this GitHub public-preview package.
 Recommended GitHub citation string:
 
 ```text
-Yaşar, F. (2026). Tasvir Bankası: Turkish Literary Annotation Pipeline (v0.1.0-public-preview). GitHub.
+Yaşar, F. (2026). Tasvir Bankası: Turkish Literary Annotation Pipeline (v0.1.0-public-preview). GitHub. https://github.com/Kon-tiki-ship/tasvir-bankasi-turkish-literary-annotation-pipeline
 ```
 
-For the full dataset publication record, cite the Zenodo DOI once published.
+For the full dataset publication record, cite the Zenodo DOI:
+
+```text
+Yaşar, F. (2026). Tasvir Bankası v0.3.1: A Turkish Literary Scene-State-Description Dataset and Annotation Pipeline. Zenodo. https://doi.org/10.5281/zenodo.20579958
+```
 
 ---
 
