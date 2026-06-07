@@ -10,13 +10,14 @@ Project owner and citation author: **Furkan Yaşar**.
 
 ---
 
-## Public release
-
-GitHub public-preview version: `v0.1.0-public-preview`.
-
-This repository is a pipeline, schema, documentation, and validation-preview package. It is **not** the full dataset release.
-
-The full gated dataset package is released separately as `v0.3.1`.
+Release tag: v0.1.0-public-preview
+Release title: Tasvir Bankası Turkish Literary Annotation Pipeline v0.1.0 Public Preview
+Assets:
+- source code zip
+- validation report
+- schema snapshot
+- sample JSONL package
+- README / citation package
 
 ---
 
