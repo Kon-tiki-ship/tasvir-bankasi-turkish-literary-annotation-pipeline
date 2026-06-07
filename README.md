@@ -50,7 +50,7 @@ https://huggingface.co/datasets/Kon-tiki-ship/tasvir-bankasi-turkish-literary-sc
 Zenodo publication record and DOI:
 
 ```text
-https://doi.org/10.5281/zenodo.XXXXXXX
+https://doi.org/10.5281/zenodo.20579958
 ```
 
 ---
